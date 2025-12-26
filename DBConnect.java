@@ -6,8 +6,9 @@ public class DBConnect {
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             String url = "jdbc:mysql://localhost:3306/mini";
-            String user = "keerthi";   
-            String password = "Minnu@1409";
+            String user = "User";   
+            String password = "Password";
 	    return DriverManager.getConnection(url,user,password);   
     }
 }
+
